@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="help.css">
+    <script src="help.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+    <title>Central de Serviços</title>
+</head>
+<body>
+    <header>
+        <h1>Central de Serviços</h1>
+    </header>
+    <main>
+        <nav class="navegation">
+            <ul class="lista">
+                <span class="material-symbols-outlined">home</span><li>Principal</li>
+                <span class="material-symbols-outlined">view_timeline</span><li>Base de Conhecimento</li>
+                <span class="material-symbols-outlined">call_quality</span><li>Novo Chamado</li>
+                <span class="material-symbols-outlined">call_log</span><li>Lista de Chamados</li>
+            </ul>
+        </nav>
+        <br>
+        <br>
+        <nav class="navegation3">
+            <h2>Informe-nos o nome do cliente:</h2>
+            <br>
+            <input type="text" id="cliente" placeholder="Nome do cliente">
+        </nav>
+        <br>
+        <br>
+        <nav class="navegation2">
+            <h2>Informe-nos o Sistema e o  Módulo:</h2>
+            <br>
+            <div id="divi">
+            <label for="a">Sistema</label>
+            <select name="sele" id="sele">
+                <option value="manu">Operacional</option>
+            </select>
+            <label for="a">Módulo</label>
+            <select name="sele" id="sele2">
+                <option value="manu">Compras</option>
+                <option value="manu">Cadastro</option>
+                <option value="manu">SAC</option>
+            </select>
+            </div>
+            <br>
+            <br>
+            <br>
+            <h2>Informe-nos o Tipo e o SLA</h2>
+            <br>
+            <div id="divi">
+            <label for="a">Tipo de Manutenção</label>
+            <select name="sele" id="sele3">
+            <option value="manu">Adaptativa</option>
+            <option value="manu">Evolutiva</option>
+            <option value="manu">Corretiva</option>
+            <option value="manu">Preventiva</option>
+            </select>
+            <label for="a">Tempo da Manutenção(SLA)</label>
+            <select name="sele" id="sele4">
+                <option value="manu">Adaptativa - 2H</option>
+                <option value="manu">Evolutiva - Tempo indefinido</option>
+                <option value="manu">Corretiva - 2H</option>
+                <option value="manu">Preventiva - 3H</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <a href="ajuda.html">
+                <button onclick="solicitar">Solicitar Ajuda</button>
+            </a>
+        </nav>
+    </main>
+</body>
+</html>

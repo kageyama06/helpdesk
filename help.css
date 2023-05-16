@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+h1{
+    color: white;
+    margin-left: 40px;
+}
+
+.navegation{
+    background-color: rgb(206, 209, 211);
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+li{
+    padding: 10px 30px 10px 3px;
+}
+
+.navegation2{
+    margin-left: 40px;
+}
+
+label{
+    padding: 30px 3px 30px 30px;
+}
+
+select{
+    width: 220px;
+}
+
+input{
+    width: 260px;
+}
+
+
+
+textarea{
+    margin-left: 100px;
+    margin-top: -17px;
+}
+
+.navegation3{
+    margin-left: 40px;
+}
+
+
